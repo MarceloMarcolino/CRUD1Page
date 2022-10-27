@@ -29,8 +29,5 @@ namespace TestePraticoProgramacaoWEB.Models
         [Display(Name = "Categoria do Produto")]
         [Column("CategoriaID")]
         public int CategoriaID { get; set; }
-
-        [ForeignKey("CategoriaID")]
-        public virtual CategoriaProduto CategoriaProduto { get; set; }
     }
 }
